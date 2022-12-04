@@ -65,7 +65,7 @@ body{
 .Omega-nav{
     padding-top: 30px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -100,35 +100,57 @@ body{
 .tiltle{
     display: flex;
 }
+.section-p{
+    margin-top:60px;
+    margin-bottom:200px;
+}
 .section-p h2{
     color:white;
     text-align: center;
-    font-size: 30px;
+    font-size: 33px;
 }
 .section-p p{
     padding-top: 30px;
     color:white;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     width: 80%;
     margin: 0 auto;
 }
 .sectionfts{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 210px;
 }
 .sectionfts div img{
     width: 400px;
     height: 230px;
-    border-radius: 68px 0px 70px 0px;
+    top: -102px;
+    position: relative;
+}
+/* .pito{
+    border: 1px solid red;
+} */
+.pit01{
+    z-index: 99999999999999999999;
 }
 .sectionfts div {
+    /* border: 1px solid red; */
+    /* width: 50%; */
+}
+.sectionfts div h2 {
     padding: 20px;
+    color: white;
+    font-size: 33px;
+}
+.sectionfts div p {
+    padding: 20px;
+    color: white;
 }
 .form_em{
     display: flex;
+    margin-bottom: 100px;
 }
 .oi{
 background-color: #ffffff;
@@ -236,7 +258,7 @@ cursor: pointer;
 }
 .pandaicon i{
     font-size: 27px;
-    margin-top: 5px;
+    margin-top: -3px;
 }
 .omega-ul{
     display: none;

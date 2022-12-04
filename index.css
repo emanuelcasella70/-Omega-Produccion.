@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+body{
+    background-color: black;
+    font-family:sans-serif;
+}
+
+.main-header{
+    width: 100%;
+    height: 623px;
+    position: relative;
+}
+.img-omgega{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.buton-crear{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 19px;
+    transform: translate(-50%,-105%);
+    cursor: pointer;
+    border-radius: 13px;
+    /* background-color: rgba(255, 255, 255, 0.12); */
+    background-color: black;
+    /* border-color: 1px solid #673281; */
+    border: 2px solid #673281;
+    color: #ffffff ;
+    box-shadow: unset;
+    letter-spacing: 2px;
+    z-index: 1000;
+    
+}
+.buton-crear:hover{
+   background-color: #673281;
+   box-shadow: 0 0 10px #673281, 0 0 40px 
+   #673281, 0 0 80px #673281;
+}
+.op{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+}
+.main-header p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-387%);
+}
+
+.Omega-nav{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.Omega-nav h1{
+    margin-left: 10px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+}
+.omega-ul{
+    display: flex;
+}
+.omega-li{
+    list-style: none;
+    padding: 5px;
+}
+.omega-li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.omega-li a:hover{
+  color: rgb(172, 169, 165);
+}
+.fa-brands{
+    color: white;
+    font-size: 26px;
+}
+.tiltle{
+    display: flex;
+}
+.section-p h2{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+.section-p p{
+    padding-top: 30px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.sectionfts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sectionfts div img{
+    width: 400px;
+    height: 230px;
+    border-radius: 68px 0px 70px 0px;
+}
+.sectionfts div {
+    padding: 20px;
+}
+.form_em{
+    display: flex;
+}
+.oi{
+background-color: #ffffff;
+width: 50%;
+height: 100vh;
+}
+.oi H2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-size: 50px;
+}
+.form{
+    position: relative;
+    top: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelforme{
+padding-top:20px;
+}
+.fromeout{
+    height:30px;
+    width:400px;
+}
+.subt{
+    margin: 0 auto;
+    position: relative;
+    top: 27%;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.subt p{
+    font-weight: 700;
+}
+.formbuttom{ 
+    margin-top: 25px;
+    padding: 9px 63px;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.6s;
+}
+.formbuttom:hover{
+    background-color: #183153;
+    color: white; 
+    cursor: pointer;
+}
+.imform{
+    width: 100%;
+    height: 100%;
+}
+.fotertl{
+width: 100%;
+text-align: center;    
+color: #ffffff;
+font-family: 'Bebas Neue', cursive;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fotertl h2{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.fotertl i{
+    padding-bottom: 15px;
+}
+.foparr{
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.spamfott{
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 21px;
+}
+.spamfott i{
+padding: 10px;
+}
+@media screen and (min-width: 1024px){
+    .pandaicon{
+        display: none;  
+    }
+
+
+}
+@media screen and (max-width: 1024px){
+.pandaicon{
+    display: inline;
+    color: #ffffff;
+    padding-left: 70px; 
+}
+.pandaicon:hover{
+cursor: pointer;
+}
+.pandaicon i{
+    font-size: 27px;
+    margin-top: 5px;
+}
+.omega-ul{
+    display: none;
+}
+.oi{
+    width: 100%;
+    }
+    .main-header p {
+        font-size: 13px;
+        padding-bottom: 3px;
+    }
+    .fromeout {
+        height: 30px;
+        width: 70%;
+    }
+    .Omega-nav h1 {
+        font-size: 32px;
+    }
+    .main-header {
+        height: 443px;
+    }
+}

@@ -167,6 +167,29 @@ body{
 .form_em{
     display: flex;
     margin-bottom: 100px;
+    flex-direction: row-reverse;
+}
+.ii{
+    user-select: none;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ii p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px;
+    
+}
+.img--omega{
+    user-select: none;
+    width: 113px;
+    position: relative;
+    bottom: 40px;
 }
 .oi{
 background-color: #ffffff;
@@ -277,9 +300,6 @@ cursor: pointer;
     margin-top: -3px;
     user-select: none;
 }
-.oi{
-    width: 100%;
-    }
     .main-header p {
         font-size: 13px;
         padding-bottom: 3px;
@@ -314,8 +334,11 @@ cursor: pointer;
     }
     .container-om-ul a{
         padding-left: 5px;
-
+    
         
+    }
+    .oi{
+        width: 100%;
     }
     .sectionfts div img {
         width: 326px;
@@ -389,5 +412,17 @@ cursor: pointer;
         border-bottom: 1px solid white;
         padding-bottom: 26px;
     }
+    .form_em{
+        flex-wrap: wrap;
+    }
+    .ii {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 180px;
 
+
+}
+.ii p {
+    width: 100%;
+}
 }

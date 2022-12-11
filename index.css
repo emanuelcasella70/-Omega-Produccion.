@@ -297,6 +297,7 @@ cursor: pointer;
     .sectionfts {
      align-items: center;
      justify-content: center;
+     width: 90%;
     }
     .container-om-ul{
         position: absolute;
@@ -384,4 +385,5 @@ cursor: pointer;
     .main-header p {
         font-weight: 700;
     }
+
 }

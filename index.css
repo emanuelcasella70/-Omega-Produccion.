@@ -343,7 +343,7 @@ cursor: pointer;
     .omega-ul{
         display: flex;
         flex-direction: column;
-        background: rgb(63, 50, 70);
+        background: hwb(0deg 0% 100% / 45%);
         width: 186px;
         transition: all 500ms ease;
         padding-top: 16px;
@@ -384,6 +384,10 @@ cursor: pointer;
     }
     .main-header p {
         font-weight: 700;
+    }
+    .il{
+        border-bottom: 1px solid white;
+        padding-bottom: 26px;
     }
 
 }

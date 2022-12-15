@@ -241,6 +241,9 @@ padding-top:20px;
     color: white; 
     cursor: pointer;
 }
+.salto{
+    display: none;
+}
 .imform{
     width: 100%;
     height: 100%;
@@ -291,6 +294,8 @@ padding: 10px;
     display: inline;
     color: #ffffff;
     padding-left: 70px; 
+    user-select: none;
+
 }
 .pandaicon:hover{
 cursor: pointer;
@@ -298,7 +303,6 @@ cursor: pointer;
 .pandaicon i{
     font-size: 27px;
     margin-top: -3px;
-    user-select: none;
 }
     .main-header p {
         font-size: 13px;
@@ -424,5 +428,8 @@ cursor: pointer;
 }
 .ii p {
     width: 100%;
+}
+.salto{
+    color: aliceblue; width: 80%; margin: 0 auto; position: relative;bottom: 90px;display: block;
 }
 }

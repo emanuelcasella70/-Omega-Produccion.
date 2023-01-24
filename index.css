@@ -271,6 +271,9 @@ height: 100vh;
     position: relative;
     top: -111px;
 }
+.container-imgomega{
+    clip-path: inset(28% 29% 36% 28%);
+}
 .form{
     position: relative;
     top: 30%;
@@ -397,7 +400,6 @@ padding: 10px;
 .pandaicon{
     display: inline;
     color: #ffffff;
-    padding-left: 70px; 
     user-select: none;
 
 }

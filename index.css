@@ -272,7 +272,7 @@ height: 100vh;
     top: -111px;
 }
 .container-imgomega{
-    clip-path: inset(28% 29% 36% 28%);
+    clip-path: inset(8% 29% 36% 28%);
 }
 .form{
     position: relative;

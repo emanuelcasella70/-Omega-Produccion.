@@ -9,3 +9,4 @@ opacity.style.backgroundColor="black"; opacity.style.position="absolute";
 boton.addEventListener("mouseleave", ()=> {opacity.style.opacity ="0"; 
 });
 
+console.log("pito");

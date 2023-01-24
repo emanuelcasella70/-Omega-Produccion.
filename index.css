@@ -42,7 +42,9 @@ body{
     box-shadow: unset;
     letter-spacing: 2px;
     z-index: 1000;
-    
+    text-decoration: none;  
+    font-size: 14px; 
+    text-align: center;
 }
 .buton-crear:hover{
    background-color: #673281;
@@ -110,8 +112,28 @@ body{
     color: white;
     font-size: 26px;
 }
+.contenedor-title-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top:-47px;
+    text-align: center;
+    margin-top: 12px;
+}
 .tiltle{
     display: flex;
+}
+.title-perf{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.text-perf{
+    color: white;
+    width: 85%;
+    margin-top: 10px;
+    text-align: center;
 }
 .pito{ 
     user-select: none;
@@ -120,12 +142,18 @@ body{
     margin: 0 auto;
     width: 80%;
     margin-top:61px;
-
+    margin-bottom: 20px;
 }
 .section-p h2{
     color:white;
     text-align: center;
     font-size: 37px;
+}
+.img-contenedor{
+    width: 100%;
+}
+.img-contenedor img{
+    width: 100%;
 }
 .sentparrafo1{
     padding-top: 30px;
@@ -142,6 +170,7 @@ body{
     text-align: center;
     margin: 0 auto;
     padding-top: 30px;
+    margin-bottom: 80px;
 }
 .sectionfts{
     display: flex;
@@ -150,6 +179,8 @@ body{
     margin-bottom: 210px;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin-bottom: 95px;
+    margin-top: 95px;
 }
 .sectionfts div img{
     width: 400px;
@@ -177,11 +208,14 @@ body{
     display: flex;
     margin-bottom: 100px;
     flex-direction: row-reverse;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
 }
 .ii{
     user-select: none;
-    color: white;
-    width: 50%;
+    color: black;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,14 +231,21 @@ body{
 .img_section{
     display: flex;
     width: 80%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+}
+.p-art{
+    color: #cacaca;
+    width: 60%;
     margin: 0 auto;
-    border-bottom: 1px solid white;
 }
 .respon{
     width: 100%;
 }
 .respond{
 width: 100%;
+border-bottom: 1px solid white;
 }
 
 .img--omega{
@@ -240,6 +281,28 @@ padding-top:20px;
     height:30px;
     width:400px;
 }
+.slider__link{
+    display: block;
+    border: 1px solid #183153;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+.slider__link:hover{
+    background: #183153 ;
+    color: white;
+  }
+.pito1{
+    background-color: #3a2b4a;
+    /* border: 2px solid #673281; */
+    color: #ffffff;
+    box-shadow: unset;
+    letter-spacing: 2px;
+}
 .subt{
     margin: 0 auto;
     position: relative;
@@ -262,9 +325,6 @@ padding-top:20px;
     background-color: #183153;
     color: white; 
     cursor: pointer;
-}
-.salto{
-    display: none;
 }
 .imform{
     width: 100%;
@@ -312,6 +372,23 @@ padding: 10px;
 
 }
 @media screen and (max-width: 1024px){
+
+.img_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 50px;
+    margin-top: 0;
+    border-top:none ;
+}    
+.respond{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
 .pandaicon{
     display: inline;
     color: #ffffff;
@@ -421,6 +498,7 @@ cursor: pointer;
     .sentparrafo {
         font-size: 10px;
         width: 100%;
+        margin: 0;
     }
     .sectionfts div h2 {
         font-size: 25px;
@@ -440,13 +518,16 @@ cursor: pointer;
     }
     .form_em{
         flex-wrap: wrap;
+        height: 100vh;
+        margin-top: 80px;
+    }
+    .img--omega{
+        bottom: 8px
     }
     .ii {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 180px;
-
-
+        margin-bottom: 69px;
 }
 .ii p {
     width: 100%;
